@@ -1,0 +1,31 @@
+<idea-plugin>
+    <id>com.meelive.ingkee</id>
+    <name>InkeScript</name>
+    <version>1.0.1</version>
+    <vendor email="1004145468@qq.com" url="http://www.inke.cn">映客直播</vendor>
+
+    <description>对项目中脚本进行归总，方便调用</description>
+
+    <change-notes></change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij"></extensions>
+
+    <actions>
+        <action id="com.ingKee.main.action" class="action.MainAction" text="InKeScriptsTools">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="alt 2"/>
+        </action>
+        <group id="com.ingKee.main.group" class="action.MainGroup" text="InKeScripts" popup="true">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="FindUsages"/>
+        </group>
+    </actions>
+</idea-plugin>

@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb1bf8e-1eec-4642-aefe-8fed099233e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/TerminalTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InkeScriptPlugin/action/EmptyAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InkeScriptPlugin/action/EmptyAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InkeScriptPlugin/manager/ScriptExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InkeScriptPlugin/manager/ScriptExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/ScriptAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/ScriptAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/ScriptEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/ScriptEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/Env.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/ScriptExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ScriptListDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ScriptListDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigParser.java" afterDir="false" />
-    </list>
+    <list default="true" id="4bb1bf8e-1eec-4642-aefe-8fed099233e5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/ScriptListDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
+            <state relative-caret-position="171">
+              <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -184,7 +172,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entity/ScriptEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -347,7 +335,7 @@
     <property name="SearchEverywhereHistoryKey" value="di&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/ScriptListDialog.java&#10;Cop&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/CopyInfoDialog.java&#10;Dialog&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/ScriptListDialog.java&#10;CommonData&#9;PSI&#9;JAVA://com.intellij.openapi.actionSystem.CommonDataKeys&#10;bullet&#9;FILE&#9;jar:///Applications/IntelliJ IDEA CE.app/Contents/lib/icons.jar!/general/bullet.png&#10;GridBagConstraints&#9;PSI&#9;JAVA://java.awt.GridBagConstraints&#10;GridConstraints&#9;PSI&#9;JAVA://com.intellij.uiDesigner.core.GridConstraints&#10;BaseGe&#9;PSI&#9;JAVA://com.intellij.codeInsight.generation.actions.BaseGenerateAction" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="296" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="512" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561551249265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561551645356" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -421,9 +409,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -439,7 +426,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.4268559" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.4268559" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -766,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/ScriptListDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/action/ScriptAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -787,6 +767,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/ScriptListDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
         </state>
       </provider>
     </entry>

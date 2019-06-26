@@ -5,7 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
 import entity.ScriptEntity;
-import manager.ScriptExecutor;
+import utils.TerminalTools;
 import utils.TextUtil;
 
 public class ScriptAction extends AnAction {
@@ -25,6 +25,6 @@ public class ScriptAction extends AnAction {
         if (TextUtil.isEmpty(inputResult)) {
             return;
         }
-        ScriptExecutor.executeScript(project, inputResult, mScriptEntity.result);
+        TerminalTools.sendCmd(project, inputResult);
     }
 }

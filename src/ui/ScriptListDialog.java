@@ -1,24 +1,17 @@
 package ui;
 
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.ui.Messages;
 import entity.ScriptEntity;
-import manager.ScriptExecutor;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import utils.CloseableUtils;
 import utils.ConfigParser;
+import utils.TerminalTools;
 import utils.TextUtil;
 
-import javax.sound.sampled.Line;
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -137,7 +130,7 @@ public class ScriptListDialog extends JDialog {
             if (TextUtil.isEmpty(codeScript)) {
                 return;
             }
-            ScriptExecutor.executeScript(mProject, codeScript, scriptEntity.result);
+            TerminalTools.sendCmd(mProject, codeScript);
         });
         itemCell.add(executeView, executeConstraints);
 

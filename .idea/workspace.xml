@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb1bf8e-1eec-4642-aefe-8fed099233e5" name="Default Changelist" comment="" />
+    <list default="true" id="4bb1bf8e-1eec-4642-aefe-8fed099233e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/ToastUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InkeScriptPlugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/InkeScriptPlugin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/MainGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/MainGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/TerminalTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/TerminalTools.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,29 +71,32 @@
     <session id="1165699991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="class" value="2" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="52" />
+          <entry key="java" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="75" />
         </counts>
       </usages-collector>
     </session>
@@ -98,85 +107,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/action/EmptyAction.java">
+        <entry file="file://$PROJECT_DIR$/src/action/MainGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="123">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/action/MainAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ui/ScriptListDialog.java">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/ActionGroup.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+            <state relative-caret-position="132">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/action/MainGroup.java">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="26" column="66" lean-forward="true" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/action/ScriptAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/TerminalTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/ConfigParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/ScriptEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="120">
+              <caret line="151" column="22" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -219,17 +174,18 @@
         <option value="$PROJECT_DIR$/src/ui/ScriptListDialog.form" />
         <option value="$PROJECT_DIR$/src/ui/CopyInfoDialog.form" />
         <option value="$PROJECT_DIR$/src/action/EmptyAction.java" />
-        <option value="$PROJECT_DIR$/src/action/MainAction.java" />
-        <option value="$PROJECT_DIR$/src/action/MainGroup.java" />
         <option value="$PROJECT_DIR$/src/ui/CopyInfoDialog.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/manager/Env.java" />
         <option value="$PROJECT_DIR$/src/utils/ConfigParser.java" />
         <option value="$PROJECT_DIR$/src/manager/ScriptExecutor.java" />
-        <option value="$PROJECT_DIR$/src/utils/TerminalTools.java" />
         <option value="$PROJECT_DIR$/src/action/ScriptAction.java" />
         <option value="$PROJECT_DIR$/src/entity/ScriptEntity.java" />
         <option value="$PROJECT_DIR$/src/ui/ScriptListDialog.java" />
+        <option value="$PROJECT_DIR$/src/utils/ToastUtil.java" />
+        <option value="$PROJECT_DIR$/src/utils/TerminalTools.java" />
+        <option value="$PROJECT_DIR$/src/action/MainAction.java" />
+        <option value="$PROJECT_DIR$/src/action/MainGroup.java" />
       </list>
     </option>
   </component>
@@ -257,6 +213,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,34 +265,19 @@
               <item name="InkeScriptPlugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="InkeScriptPlugin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="CopyInfoDialog" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="InkeScriptPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InkeScriptPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="ScriptListDialog" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="InkeScriptPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InkeScriptPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="di&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/ScriptListDialog.java&#10;Cop&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/CopyInfoDialog.java&#10;Dialog&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/ScriptListDialog.java&#10;CommonData&#9;PSI&#9;JAVA://com.intellij.openapi.actionSystem.CommonDataKeys&#10;bullet&#9;FILE&#9;jar:///Applications/IntelliJ IDEA CE.app/Contents/lib/icons.jar!/general/bullet.png&#10;GridBagConstraints&#9;PSI&#9;JAVA://java.awt.GridBagConstraints&#10;GridConstraints&#9;PSI&#9;JAVA://com.intellij.uiDesigner.core.GridConstraints&#10;BaseGe&#9;PSI&#9;JAVA://com.intellij.codeInsight.generation.actions.BaseGenerateAction" />
+    <property name="SearchEverywhereHistoryKey" value="ActionGra&#9;null&#9;null&#10;MainAc&#9;FILE&#9;file:///Users/yanglang/Java-WorkSpace/InkeScriptPlugin/src/action/MainAction.java&#10;Ter&#9;FILE&#9;file:///Users/yanglang/Java-WorkSpace/InkeScriptPlugin/src/utils/TerminalTools.java&#10;di&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/ScriptListDialog.java&#10;Cop&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/CopyInfoDialog.java&#10;Dialog&#9;FILE&#9;file:///Users/yanglang/Downloads/InkeScriptPlugin/src/ui/ScriptListDialog.java&#10;CommonData&#9;PSI&#9;JAVA://com.intellij.openapi.actionSystem.CommonDataKeys&#10;bullet&#9;FILE&#9;jar:///Applications/IntelliJ IDEA CE.app/Contents/lib/icons.jar!/general/bullet.png&#10;GridBagConstraints&#9;PSI&#9;JAVA://java.awt.GridBagConstraints&#10;GridConstraints&#9;PSI&#9;JAVA://com.intellij.uiDesigner.core.GridConstraints&#10;BaseGe&#9;PSI&#9;JAVA://com.intellij.codeInsight.generation.actions.BaseGenerateAction" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="296" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="512" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561551645356" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561612190158" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -408,9 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2610565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -426,7 +369,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.4268559" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.16649324" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,13 +385,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/GridBagLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1420">
-          <caret line="493" column="11" selection-start-line="493" selection-start-column="11" selection-end-line="493" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/icons.jar!/general/bullet.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -630,13 +566,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/sd.java" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/ActionGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/resources.jar!/idea/LangActions.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9234">
@@ -651,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/CopyInfoDialog.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -665,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,50 +615,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manager/Env.java">
+    <entry file="file://$PROJECT_DIR$/src/manager/Env.java" />
+    <entry file="file://$PROJECT_DIR$/src/manager/ScriptExecutor.java" />
+    <entry file="file://$PROJECT_DIR$/src/entity/ScriptEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="3" lean-forward="true" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#690#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/ConfigParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        <state relative-caret-position="506">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manager/ScriptExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/ScriptListDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="924">
+          <caret line="59" column="68" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ToastUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/TerminalTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/MainGroup.java">
+    <entry file="file://$PROJECT_DIR$/src/action/ScriptAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="26" column="66" lean-forward="true" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        <state relative-caret-position="582">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -748,32 +669,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/MainAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="330">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/ScriptAction.java">
+    <entry file="file://$PROJECT_DIR$/src/action/MainGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="123">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/ScriptEntity.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/ScriptListDialog.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/ActionGroup.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        <state relative-caret-position="132">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
